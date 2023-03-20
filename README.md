@@ -12,7 +12,7 @@ CodePost is a platform where you can share your code snippets, projects, ideas, 
  To get started with CodePost, you will need to create an account and set up your profile. Then you can create your own repositories or explore the ones already available. You can also join our community channels to chat with other users, ask questions, share tips, and more.  
 <br>
 <br>
-We hope you enjoy using CodePost and find it useful for your coding journey. If you have any feedback or suggestions for us, please feel free to contact us at K14734@nu.edu.com , K213064@nu.edu.pk, K213092@nu.edu.pk and K214744@nu.edu.pk . We would love to hear from you!  
+We hope you enjoy using CodePost and find it useful for your coding journey. If you have any feedback or suggestions for us, please feel free to contact us at  (K14734@nu.edu.pk) Ayesha Irshad , (K213064@nu.edu.pk) Muhammad Murad , (K213092@nu.edu.pk) Muhammad Ahmed and (K214744@nu.edu.pk) Nizaam  . We would love to hear from you!  
 <br>
 <br>
 Happy coding! 😊
