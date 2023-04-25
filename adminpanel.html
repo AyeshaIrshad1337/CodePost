@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Admin</title>
+    <link href="adminpanel.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <img src="WhatsApp Image 2023-04-14 at 03.36.37.jpg" height="70px" width="70px">
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="#" class="active"><span class="bx bxs-dashboard"></span>
+                    <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class='bx bxs-user-account'></span>
+                    <span>User Accounts</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="bx bx-news"></span>
+                    <span>News</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class='bx bx-calendar-event'></span>
+                    <span>Events</span></a>
+                </li>
+                
+                <li>
+                    <a href="#"><span class="bx bx-cog"></span>
+                    <span>Settings</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class='bx bx-log-out' ></span>
+                    <span>Logout</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h3>
+                <label for="">
+                    <span class="bx bx-menu"></span>
+                </label>
+
+                Dashboard
+            </h3>
+            <div class="search-wrapper">
+                <span class="bx bx-search"></span> 
+                <input type="search" placeholder= "Search here"/>
+            </div>
+        </header>
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Users</span>
+                    </div>
+                    <div>
+                        <span class="bx bxs-user-account"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>0</h1>
+                        <span>News</span>
+                    </div>
+                    <div>
+                        <span class="bx bx-news"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>2</h1>
+                        <span>Events</span>
+                    </div>
+                    <div>
+                        <span class="bx bx-calendar-event"></span>
+                    </div>
+                </div> 
+            </div>
+            <div class="recent-grid">
+                <div class="news">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Events</h3>
+
+                            <button>See all <span class="span bx bx-right-arrow-alt"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Event Name</td>
+                                            <td>Event Date</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>CodePost</td>
+                                            <td>1/5/2023</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tr>
+                                        <td>Woven</td>
+                                        <td>3/5/2023</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            review
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Woven</td>
+                                        <td>3/5/2023</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            pending
+                                         </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>New Customers</h3>
+
+                            <button>See all <span class="span bx bx-right-arrow-alt"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                    <h4>Nizamuldin</h4>
+                                    <small>CEO in Bezati</small>
+                                </div>    
+                                <div class="contact">
+                                    <span class='bx bxs-comment-detail'></span>
+                                    <span class="bx bx-phone"></span>
+                                </div>
+                             </div>    
+                        </div>     
+                    </div>
+            </main>
+        </div>
+</body>
+</html>
