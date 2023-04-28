@@ -344,7 +344,8 @@ text-decoration:none;
 }
 .team .box:hover{
 	transform: translateY(-10px);
-	cursor: context-menu;
+	  cursor: default;
+
 }
 
 .service_container{
@@ -377,7 +378,7 @@ margin-top: 20px;
   padding:50px 20px;
   border-radius: 5px;
   font-size: 14px;
-  cursor: context-menu;
+    cursor: default;
   background: transparent;
   transition: transform 0.5s, background 0.5s;
 }
