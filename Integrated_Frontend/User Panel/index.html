@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-brand">
+      <img src="user.png" height="70px" width="70px">
+    </div>
+    <div class="sidebar-menu">
+      <ul>
+        <li>
+          <a href="index.html" class="active"><span class="bx bxs-dashboard"></span>
+            <span>Dashboard</span></a>
+        </li>
+        <li>
+          <a href="CodePost.html"><span class='bx bxs-user-account'></span>
+            <span>Code Post</span></a>
+        </li>
+        <li>
+          <a href="Events.html"><span class="bx bx-news"></span>
+            <span>News and Events</span></a>
+        </li>
+
+        <li>
+          <a href="Setting.html"><span class="bx bx-cog"></span>
+            <span>Settings</span></a>
+        </li>
+        <li>
+          <a href="#"><span class='bx bx-log-out'></span>
+            <span>Logout</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-content">
+    <header>
+      <h3>
+        <label for="">
+          <span class="bx bx-menu"></span>
+        </label>
+        Dashboard
+      </h3>
+      <div class="search-wrapper">
+        <span class="bx bx-search"></span>
+        <input type="search" placeholder="Search here" />
+      </div>
+    </header>
+    <main>
+      <div class="cards">
+        <div class="card-single">
+          <div>
+            <h1>54</h1>
+            <span>Code Posted</span>
+          </div>
+          <div>
+            <span class="bx bxs-user-account"></span>
+          </div>
+        </div>
+        <div class="card-single">
+          <div>
+            <h1>0</h1>
+            <span>News</span>
+          </div>
+          <div>
+            <span class="bx bx-news"></span>
+          </div>
+        </div>
+        <div class="card-single">
+          <div>
+            <h1>2</h1>
+            <span>Events</span>
+          </div>
+          <div>
+            <span class="bx bx-calendar-event"></span>
+          </div>
+        </div>
+      </div>
+      <div class="recent-grid">
+        <div class="news">
+          <div class="card">
+            <div class="card-header">
+              <h3>Recent Events</h3>
+
+              <button>See all <span class="span bx bx-right-arrow-alt"></span></button>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table width="100%">
+                  <thead>
+                    <tr>
+                      <td>Event Name</td>
+                      <td>Event Date</td>
+                      <td>Status</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>CodePost</td>
+                      <td>1/5/2023</td>
+                      <td>
+                        <span class="status purple"></span>
+                        in progress
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tr>
+                    <td>Woven</td>
+                    <td>3/5/2023</td>
+                    <td>
+                      <span class="status orange"></span>
+                      review
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Woven</td>
+                    <td>3/5/2023</td>
+                    <td>
+                      <span class="status pink"></span>
+                      pending
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="customers">
+          <div class="card">
+            <div class="card-header">
+              <h3>Top Codes</h3>
+
+              <button>See all <span class="span bx bx-right-arrow-alt"></span></button>
+            </div>
+            <div class="card-body">
+              <div class="customer">
+                <div class="info">
+                  <h4>ABC.py</h4>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+    </main>
+  </div>
+</body>
+
+</html>
