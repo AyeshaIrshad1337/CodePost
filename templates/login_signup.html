@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+ 
+</head>
+
+<body>
+  <header><a href="{% url 'index' %}"><i class='bx bx-arrow-back'></i></a></header>
+  <div class="main">
+    <input type="checkbox" id="chk" aria-hidden="true">
+    <div class="signup">
+      <form method="post" action="{% url 'signup' %}">
+        {% csrf_token %}
+        <label for="chk" aria-hidden="true">SignUp</label>
+        <input type="text" name="txt" placeholder="User Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="Password" name="pswd" placeholder="Password" required>
+        <button>SignUp</button>
+      </form>
+    </div>  
+    <div class="login">
+      <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+        <label for="chk" aria-hidden="true">Login</label>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="Password" name="pswd" placeholder="Password" required>
+        <button>LogIn</button>
+      </form>
+    </div>
+  </div>
+  
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  
+</body>
+</html>

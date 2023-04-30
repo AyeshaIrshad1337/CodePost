@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="CodePost.css" rel="stylesheet" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <div class="sidebar-brand">
+      <img src="user.png" height="70px" width="70px">
+    </div>
+    <div class="sidebar-menu">
+      <ul>
+        <li>
+          <a href="index.html"><span class="bx bxs-dashboard"></span>
+            <span>Dashboard</span></a>
+        </li>
+        <li>
+          <a href="CodePost.html" class="active"><span class='bx bxs-user-account'></span>
+            <span>Code Post</span></a>
+        </li>
+        <li>
+          <a href="Events.html"><span class="bx bx-news"></span>
+            <span>News and Events</span></a>
+        </li>
+
+        <li>
+          <a href="Setting.html"><span class="bx bx-cog"></span>
+            <span>Settings</span></a>
+        </li>
+        <li>
+          <a href="#"><span class='bx bx-log-out'></span>
+            <span>Logout</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-content">
+    <header>
+      <h3>
+        <label for="">
+          <span class="bx bx-menu"></span>
+        </label>
+        Code Post
+      </h3>
+      <div class="search-wrapper">
+        <span class="bx bx-search"></span>
+        <input type="search" placeholder="Search here" />
+      </div>
+    </header>
+    <section class="code_info">
+      <div class="news">
+        <label for="text"><b> Title</b></label>
+        <input type="text" placeholder="Title" name="text">
+        <label for="text"><b> Description</b></label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+         <label for="text"><b> Upload File</b></label>
+        <form action="/action_page.php">
+          <input type="file" id="myFile" name="filename">
+         
+        </form>
+ <button id="add"><i class='bx bx-plus'>Add</i></button>
+      </div>
+      <table id="customers">
+        <tr class="row">
+          <th>S.No</th>
+          <th>File Name</th>
+          <th>Description</th>
+          <th>Language</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>Login_PAGE</td>
+          <td>i CRETATEED A lOGIN Page</td>
+          <td>Html</td>
+          <td>
+            <div class="dropdown">
+              <button class="dropbtn">Choose any option</button>
+              <div class="dropdown-content">
+                <a href="#">View Details</a>
+                <a href="#" class="open-button" onclick="openForm()">Update</a>
+                <div class="form-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Update Information</h1>
+                    <br>
+                    <label for="text"><b> Description</b></label>
+                    <input type="text" placeholder="Description" name="text">
+
+                    <button type="submit" class="btn">Update</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                  </form>
+                </div>
+                <div class="red">
+                  <a href="#">Delete</a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  </div>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>
